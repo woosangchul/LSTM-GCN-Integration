@@ -1,0 +1,452 @@
+[ Sat May 22 19:37:06 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 16, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sat May 22 19:37:06 2021 ] Training epoch: 1
+[ Sat May 22 19:39:23 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 16, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sat May 22 19:39:23 2021 ] Training epoch: 1
+[ Sat May 22 19:45:24 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 16, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sat May 22 19:45:24 2021 ] Training epoch: 1
+[ Sat May 22 19:48:16 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 16, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sat May 22 19:48:16 2021 ] Training epoch: 1
+[ Sat May 22 19:51:00 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 16, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sat May 22 19:51:00 2021 ] Training epoch: 1
+[ Sat May 22 20:03:13 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 16, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sat May 22 20:03:13 2021 ] Training epoch: 1
+[ Sat May 22 20:04:05 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 16, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sat May 22 20:04:05 2021 ] Training epoch: 1
+[ Sat May 22 20:06:31 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sat May 22 20:06:31 2021 ] Training epoch: 1
+[ Sat May 22 20:18:45 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sat May 22 20:18:45 2021 ] Training epoch: 1
+[ Sat May 22 20:21:12 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sat May 22 20:21:12 2021 ] Training epoch: 1
+[ Sat May 22 20:22:21 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sat May 22 20:22:21 2021 ] Training epoch: 1
+[ Sat May 22 20:46:23 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sat May 22 20:46:23 2021 ] Training epoch: 1
+[ Sat May 22 20:49:40 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sat May 22 20:49:40 2021 ] Training epoch: 1
+[ Mon Jun 14 21:58:32 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Mon Jun 14 21:58:32 2021 ] Training epoch: 1
+[ Tue Jun 15 09:37:55 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Tue Jun 15 09:37:55 2021 ] Training epoch: 1
+[ Tue Jun 15 10:08:08 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Tue Jun 15 10:08:08 2021 ] Training epoch: 1
+[ Tue Jun 15 10:14:23 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Tue Jun 15 10:14:23 2021 ] Training epoch: 1
+[ Tue Jun 15 10:15:40 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Tue Jun 15 10:15:40 2021 ] Training epoch: 1
+[ Tue Jun 15 10:29:27 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Tue Jun 15 10:29:27 2021 ] Training epoch: 1
+[ Tue Jun 15 10:40:19 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Tue Jun 15 10:40:19 2021 ] Training epoch: 1
+[ Sat Jun 19 17:23:50 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sat Jun 19 17:23:50 2021 ] Training epoch: 1
+[ Sat Jun 19 20:00:35 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sat Jun 19 20:00:35 2021 ] Training epoch: 1
+[ Sat Jun 19 20:02:09 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sat Jun 19 20:02:09 2021 ] Training epoch: 1
+[ Sat Jun 19 20:04:55 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sat Jun 19 20:04:55 2021 ] Training epoch: 1
+[ Sat Jun 19 20:06:25 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sat Jun 19 20:06:25 2021 ] Training epoch: 1
+[ Sat Jun 19 20:23:38 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sat Jun 19 20:23:38 2021 ] Training epoch: 1
+[ Sat Jun 19 20:25:48 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sat Jun 19 20:25:48 2021 ] Training epoch: 1
+[ Sat Jun 19 20:29:18 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sat Jun 19 20:29:18 2021 ] Training epoch: 1
+[ Sat Jun 19 20:29:58 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sat Jun 19 20:29:58 2021 ] Training epoch: 1
+[ Sun Jun 20 15:56:43 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sun Jun 20 15:56:43 2021 ] Training epoch: 1
+[ Sun Jun 20 15:57:40 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sun Jun 20 15:57:40 2021 ] Training epoch: 1
+[ Sun Jun 20 15:59:01 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sun Jun 20 15:59:01 2021 ] Training epoch: 1
+[ Sun Jun 20 16:05:26 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sun Jun 20 16:05:26 2021 ] Training epoch: 1
+[ Sun Jun 20 16:12:27 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sun Jun 20 16:12:27 2021 ] Training epoch: 1
+[ Sun Jun 20 16:30:45 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sun Jun 20 16:30:45 2021 ] Training epoch: 1
+[ Sun Jun 20 16:59:11 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sun Jun 20 16:59:11 2021 ] Training epoch: 1
+[ Sun Jun 20 17:02:50 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sun Jun 20 17:02:50 2021 ] Training epoch: 1
+[ Sun Jun 20 17:03:32 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sun Jun 20 17:03:32 2021 ] Training epoch: 1
+[ Sun Jun 20 17:22:28 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sun Jun 20 17:22:28 2021 ] Training epoch: 1
+[ Sun Jun 20 17:23:42 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sun Jun 20 17:23:42 2021 ] Training epoch: 1
+[ Sun Jun 20 17:24:55 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sun Jun 20 17:24:55 2021 ] Training epoch: 1
+[ Sun Jun 20 17:26:17 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sun Jun 20 17:26:17 2021 ] Training epoch: 1
+[ Sun Jun 20 17:27:19 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sun Jun 20 17:27:19 2021 ] Training epoch: 1
+[ Sun Jun 20 17:27:58 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sun Jun 20 17:27:58 2021 ] Training epoch: 1
+[ Sun Jun 20 17:28:05 2021 ] 	Batch(0/3341) done. Loss: 11.0388  lr:0.100000
+[ Sun Jun 20 17:29:27 2021 ] 	Batch(100/3341) done. Loss: 296177.8438  lr:0.100000
+[ Sun Jun 20 17:29:57 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 100, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sun Jun 20 17:29:57 2021 ] Training epoch: 1
+[ Sun Jun 20 17:30:45 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 64, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sun Jun 20 17:30:45 2021 ] Training epoch: 1
+[ Sun Jun 20 17:34:04 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 32, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sun Jun 20 17:34:04 2021 ] Training epoch: 1
+[ Sun Jun 20 17:37:37 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 32, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sun Jun 20 17:37:37 2021 ] Training epoch: 1
+[ Sun Jun 20 17:39:16 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 24, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sun Jun 20 17:39:16 2021 ] Training epoch: 1
+[ Sun Jun 20 17:39:48 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sun Jun 20 17:39:48 2021 ] Training epoch: 1
+[ Sun Jun 20 17:41:44 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sun Jun 20 17:41:44 2021 ] Training epoch: 1
+[ Sun Jun 20 17:42:47 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sun Jun 20 17:42:47 2021 ] Training epoch: 1
+[ Sun Jun 20 17:43:35 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sun Jun 20 17:43:35 2021 ] Training epoch: 1
+[ Sun Jun 20 17:43:38 2021 ] 	Batch(0/3341) done. Loss: 9.9831  lr:0.100000
+[ Sun Jun 20 17:44:59 2021 ] 	Batch(100/3341) done. Loss: nan  lr:0.100000
+[ Sun Jun 20 17:46:21 2021 ] 	Batch(200/3341) done. Loss: nan  lr:0.100000
+[ Sun Jun 20 17:47:43 2021 ] 	Batch(300/3341) done. Loss: nan  lr:0.100000
+[ Sun Jun 20 17:49:06 2021 ] 	Batch(400/3341) done. Loss: nan  lr:0.100000
+[ Sun Jun 20 17:50:28 2021 ] 	Batch(500/3341) done. Loss: nan  lr:0.100000
+[ Sun Jun 20 18:35:54 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sun Jun 20 18:35:54 2021 ] Training epoch: 1
+[ Sun Jun 20 18:35:57 2021 ] 	Batch(0/3341) done. Loss: 19.5827  lr:0.100000
+[ Sun Jun 20 18:37:19 2021 ] 	Batch(100/3341) done. Loss: 17.8134  lr:0.100000
+[ Sun Jun 20 18:38:42 2021 ] 	Batch(200/3341) done. Loss: 19.4988  lr:0.100000
+[ Sun Jun 20 18:40:05 2021 ] 	Batch(300/3341) done. Loss: 10.3652  lr:0.100000
+[ Sun Jun 20 18:41:29 2021 ] 	Batch(400/3341) done. Loss: 8.3228  lr:0.100000
+[ Sun Jun 20 18:42:53 2021 ] 	Batch(500/3341) done. Loss: 4.8384  lr:0.100000
+[ Sun Jun 20 18:44:17 2021 ] 	Batch(600/3341) done. Loss: 5.1295  lr:0.100000
+[ Sun Jun 20 18:45:41 2021 ] 	Batch(700/3341) done. Loss: 4.8020  lr:0.100000
+[ Sun Jun 20 18:47:05 2021 ] 	Batch(800/3341) done. Loss: 4.4601  lr:0.100000
+[ Sun Jun 20 18:48:30 2021 ] 	Batch(900/3341) done. Loss: 4.2786  lr:0.100000
+[ Sun Jun 20 18:49:54 2021 ] 	Batch(1000/3341) done. Loss: 4.1883  lr:0.100000
+[ Sun Jun 20 18:51:19 2021 ] 	Batch(1100/3341) done. Loss: 4.4170  lr:0.100000
+[ Sun Jun 20 18:52:43 2021 ] 	Batch(1200/3341) done. Loss: 4.4115  lr:0.100000
+[ Sun Jun 20 18:54:07 2021 ] 	Batch(1300/3341) done. Loss: 4.8702  lr:0.100000
+[ Sun Jun 20 18:55:32 2021 ] 	Batch(1400/3341) done. Loss: 4.2650  lr:0.100000
+[ Sun Jun 20 18:56:56 2021 ] 	Batch(1500/3341) done. Loss: 4.2743  lr:0.100000
+[ Sun Jun 20 18:58:21 2021 ] 	Batch(1600/3341) done. Loss: 4.3240  lr:0.100000
+[ Sun Jun 20 18:59:45 2021 ] 	Batch(1700/3341) done. Loss: 4.0784  lr:0.100000
+[ Sun Jun 20 19:01:08 2021 ] 	Batch(1800/3341) done. Loss: 4.0369  lr:0.100000
+[ Sun Jun 20 19:02:32 2021 ] 	Batch(1900/3341) done. Loss: 4.0541  lr:0.100000
+[ Sun Jun 20 19:03:55 2021 ] 	Batch(2000/3341) done. Loss: 4.1903  lr:0.100000
+[ Sun Jun 20 19:05:19 2021 ] 	Batch(2100/3341) done. Loss: 4.1428  lr:0.100000
+[ Sun Jun 20 19:06:43 2021 ] 	Batch(2200/3341) done. Loss: 4.1932  lr:0.100000
+[ Sun Jun 20 19:08:07 2021 ] 	Batch(2300/3341) done. Loss: 4.1336  lr:0.100000
+[ Sun Jun 20 19:09:31 2021 ] 	Batch(2400/3341) done. Loss: 4.0936  lr:0.100000
+[ Sun Jun 20 19:10:55 2021 ] 	Batch(2500/3341) done. Loss: 4.1195  lr:0.100000
+[ Sun Jun 20 19:12:19 2021 ] 	Batch(2600/3341) done. Loss: 4.2163  lr:0.100000
+[ Sun Jun 20 19:13:43 2021 ] 	Batch(2700/3341) done. Loss: 4.1148  lr:0.100000
+[ Sun Jun 20 19:15:07 2021 ] 	Batch(2800/3341) done. Loss: 4.0898  lr:0.100000
+[ Sun Jun 20 19:16:30 2021 ] 	Batch(2900/3341) done. Loss: 4.0377  lr:0.100000
+[ Sun Jun 20 19:17:55 2021 ] 	Batch(3000/3341) done. Loss: 4.3178  lr:0.100000
+[ Sun Jun 20 19:19:18 2021 ] 	Batch(3100/3341) done. Loss: 4.1210  lr:0.100000
+[ Sun Jun 20 19:20:42 2021 ] 	Batch(3200/3341) done. Loss: 4.0453  lr:0.100000
+[ Sun Jun 20 19:22:05 2021 ] 	Batch(3300/3341) done. Loss: 4.2329  lr:0.100000
+[ Sun Jun 20 22:24:20 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sun Jun 20 22:24:20 2021 ] Training epoch: 1
+[ Sun Jun 20 22:24:22 2021 ] 	Batch(0/3341) done. Loss: 17.9802  lr:0.100000
+[ Sun Jun 20 22:25:22 2021 ] Parameters:
+{'work_dir': './work_dir/NTU-RGB-D/xsub/ST_GCN', 'config': 'config/st_gcn/nturgbd-cross-subject/train.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'st_gcn.feeder.Feeder', 'num_worker': 0, 'train_feeder_args': {'mode': 'train', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/train_data.npy', 'label_path': './data/NTU-RGB-D/xsub/train_label.pkl'}, 'test_feeder_args': {'mode': 'test', 'window_size': 300, 'data_path': './data/NTU-RGB-D/xsub/val_data.npy', 'label_path': './data/NTU-RGB-D/xsub/val_label.pkl'}, 'model': 'st_gcn.net.ST_GCN', 'model_args': {'num_class': 60, 'channel': 3, 'window_size': 300, 'num_point': 25, 'num_person': 2, 'graph': 'st_gcn.graph.NTU_RGB_D', 'graph_args': {'labeling_mode': 'spatial'}, 'mask_learning': True, 'use_data_bn': True}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.1, 'step': [10, 50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 12, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 80, 'weight_decay': 0.0001}
+
+[ Sun Jun 20 22:25:22 2021 ] Training epoch: 1
+[ Sun Jun 20 22:25:25 2021 ] 	Batch(0/3341) done. Loss: 16.8575  lr:0.100000
+[ Sun Jun 20 22:26:47 2021 ] 	Batch(100/3341) done. Loss: 16.1345  lr:0.100000
+[ Sun Jun 20 22:28:09 2021 ] 	Batch(200/3341) done. Loss: 10.6684  lr:0.100000
+[ Sun Jun 20 22:29:32 2021 ] 	Batch(300/3341) done. Loss: 9.0093  lr:0.100000
+[ Sun Jun 20 22:30:54 2021 ] 	Batch(400/3341) done. Loss: 6.5006  lr:0.100000
+[ Sun Jun 20 22:32:17 2021 ] 	Batch(500/3341) done. Loss: 5.4422  lr:0.100000
+[ Sun Jun 20 22:33:40 2021 ] 	Batch(600/3341) done. Loss: 4.4920  lr:0.100000
+[ Sun Jun 20 22:35:03 2021 ] 	Batch(700/3341) done. Loss: 4.5542  lr:0.100000
+[ Sun Jun 20 22:36:26 2021 ] 	Batch(800/3341) done. Loss: 4.9137  lr:0.100000
+[ Sun Jun 20 22:37:49 2021 ] 	Batch(900/3341) done. Loss: 4.5539  lr:0.100000
+[ Sun Jun 20 22:39:12 2021 ] 	Batch(1000/3341) done. Loss: 4.7674  lr:0.100000
+[ Sun Jun 20 22:40:35 2021 ] 	Batch(1100/3341) done. Loss: 5.2618  lr:0.100000
+[ Sun Jun 20 22:41:57 2021 ] 	Batch(1200/3341) done. Loss: 4.2659  lr:0.100000
+[ Sun Jun 20 22:43:19 2021 ] 	Batch(1300/3341) done. Loss: 4.3703  lr:0.100000
+[ Sun Jun 20 22:44:41 2021 ] 	Batch(1400/3341) done. Loss: 4.0831  lr:0.100000
+[ Sun Jun 20 22:46:03 2021 ] 	Batch(1500/3341) done. Loss: 3.7268  lr:0.100000
+[ Sun Jun 20 22:47:25 2021 ] 	Batch(1600/3341) done. Loss: 4.1491  lr:0.100000
+[ Sun Jun 20 22:48:47 2021 ] 	Batch(1700/3341) done. Loss: 4.1946  lr:0.100000
+[ Sun Jun 20 22:50:09 2021 ] 	Batch(1800/3341) done. Loss: 4.1216  lr:0.100000
+[ Sun Jun 20 22:51:31 2021 ] 	Batch(1900/3341) done. Loss: 4.1707  lr:0.100000
+[ Sun Jun 20 22:52:53 2021 ] 	Batch(2000/3341) done. Loss: 4.0628  lr:0.100000
+[ Sun Jun 20 22:54:15 2021 ] 	Batch(2100/3341) done. Loss: 4.1265  lr:0.100000
+[ Sun Jun 20 22:55:37 2021 ] 	Batch(2200/3341) done. Loss: 4.1312  lr:0.100000
+[ Sun Jun 20 22:56:59 2021 ] 	Batch(2300/3341) done. Loss: 4.1441  lr:0.100000
+[ Sun Jun 20 22:58:22 2021 ] 	Batch(2400/3341) done. Loss: 4.0227  lr:0.100000
+[ Sun Jun 20 22:59:43 2021 ] 	Batch(2500/3341) done. Loss: 4.1497  lr:0.100000
+[ Sun Jun 20 23:01:05 2021 ] 	Batch(2600/3341) done. Loss: 4.0934  lr:0.100000
+[ Sun Jun 20 23:02:27 2021 ] 	Batch(2700/3341) done. Loss: 4.2193  lr:0.100000
+[ Sun Jun 20 23:03:49 2021 ] 	Batch(2800/3341) done. Loss: 4.1568  lr:0.100000
+[ Sun Jun 20 23:05:11 2021 ] 	Batch(2900/3341) done. Loss: 4.2043  lr:0.100000
+[ Sun Jun 20 23:06:33 2021 ] 	Batch(3000/3341) done. Loss: 4.0806  lr:0.100000
+[ Sun Jun 20 23:07:56 2021 ] 	Batch(3100/3341) done. Loss: 4.2169  lr:0.100000
+[ Sun Jun 20 23:09:18 2021 ] 	Batch(3200/3341) done. Loss: 4.2858  lr:0.100000
+[ Sun Jun 20 23:10:40 2021 ] 	Batch(3300/3341) done. Loss: 4.1251  lr:0.100000
+[ Sun Jun 20 23:11:13 2021 ] 	Mean training loss: 5.4028.
+[ Sun Jun 20 23:11:13 2021 ] 	Time consumption: [Data]00%, [Network]100%
+[ Sun Jun 20 23:11:13 2021 ] Training epoch: 2
+[ Sun Jun 20 23:11:13 2021 ] 	Batch(0/3341) done. Loss: 4.0410  lr:0.100000
+[ Sun Jun 20 23:12:35 2021 ] 	Batch(100/3341) done. Loss: 4.0236  lr:0.100000
+[ Sun Jun 20 23:13:57 2021 ] 	Batch(200/3341) done. Loss: 4.1743  lr:0.100000
+[ Sun Jun 20 23:15:19 2021 ] 	Batch(300/3341) done. Loss: 4.0893  lr:0.100000
+[ Sun Jun 20 23:16:41 2021 ] 	Batch(400/3341) done. Loss: 4.1117  lr:0.100000
+[ Sun Jun 20 23:18:03 2021 ] 	Batch(500/3341) done. Loss: 4.1950  lr:0.100000
+[ Sun Jun 20 23:19:25 2021 ] 	Batch(600/3341) done. Loss: 4.1930  lr:0.100000
+[ Sun Jun 20 23:20:47 2021 ] 	Batch(700/3341) done. Loss: 4.1324  lr:0.100000
+[ Sun Jun 20 23:22:09 2021 ] 	Batch(800/3341) done. Loss: 4.1315  lr:0.100000
+[ Sun Jun 20 23:23:31 2021 ] 	Batch(900/3341) done. Loss: 4.0619  lr:0.100000
+[ Sun Jun 20 23:24:53 2021 ] 	Batch(1000/3341) done. Loss: 4.1781  lr:0.100000
+[ Sun Jun 20 23:26:15 2021 ] 	Batch(1100/3341) done. Loss: 4.0507  lr:0.100000
+[ Sun Jun 20 23:27:37 2021 ] 	Batch(1200/3341) done. Loss: 4.2025  lr:0.100000
+[ Sun Jun 20 23:28:59 2021 ] 	Batch(1300/3341) done. Loss: 4.1731  lr:0.100000
+[ Sun Jun 20 23:30:21 2021 ] 	Batch(1400/3341) done. Loss: 4.1774  lr:0.100000
+[ Sun Jun 20 23:31:43 2021 ] 	Batch(1500/3341) done. Loss: 4.1568  lr:0.100000
+[ Sun Jun 20 23:33:04 2021 ] 	Batch(1600/3341) done. Loss: 4.0769  lr:0.100000
+[ Sun Jun 20 23:34:26 2021 ] 	Batch(1700/3341) done. Loss: 4.0351  lr:0.100000
+[ Sun Jun 20 23:35:49 2021 ] 	Batch(1800/3341) done. Loss: 4.2178  lr:0.100000
+[ Sun Jun 20 23:37:12 2021 ] 	Batch(1900/3341) done. Loss: 4.0882  lr:0.100000
+[ Sun Jun 20 23:38:35 2021 ] 	Batch(2000/3341) done. Loss: 4.1866  lr:0.100000
+[ Sun Jun 20 23:39:58 2021 ] 	Batch(2100/3341) done. Loss: 4.0805  lr:0.100000
+[ Sun Jun 20 23:41:21 2021 ] 	Batch(2200/3341) done. Loss: 4.2785  lr:0.100000
+[ Sun Jun 20 23:42:44 2021 ] 	Batch(2300/3341) done. Loss: 4.0133  lr:0.100000
+[ Sun Jun 20 23:44:06 2021 ] 	Batch(2400/3341) done. Loss: 4.1350  lr:0.100000
+[ Sun Jun 20 23:45:29 2021 ] 	Batch(2500/3341) done. Loss: 4.1523  lr:0.100000
+[ Sun Jun 20 23:46:52 2021 ] 	Batch(2600/3341) done. Loss: 4.1469  lr:0.100000
+[ Sun Jun 20 23:48:15 2021 ] 	Batch(2700/3341) done. Loss: 4.0876  lr:0.100000
+[ Sun Jun 20 23:49:37 2021 ] 	Batch(2800/3341) done. Loss: 4.1430  lr:0.100000
+[ Sun Jun 20 23:51:00 2021 ] 	Batch(2900/3341) done. Loss: 4.1856  lr:0.100000
+[ Sun Jun 20 23:52:22 2021 ] 	Batch(3000/3341) done. Loss: 4.0485  lr:0.100000
+[ Sun Jun 20 23:53:44 2021 ] 	Batch(3100/3341) done. Loss: 4.1023  lr:0.100000
+[ Sun Jun 20 23:55:07 2021 ] 	Batch(3200/3341) done. Loss: 4.1391  lr:0.100000
+[ Sun Jun 20 23:56:29 2021 ] 	Batch(3300/3341) done. Loss: 4.1560  lr:0.100000
+[ Sun Jun 20 23:57:02 2021 ] 	Mean training loss: 4.1219.
+[ Sun Jun 20 23:57:02 2021 ] 	Time consumption: [Data]00%, [Network]100%
+[ Sun Jun 20 23:57:02 2021 ] Training epoch: 3
+[ Sun Jun 20 23:57:03 2021 ] 	Batch(0/3341) done. Loss: 4.0092  lr:0.100000
+[ Sun Jun 20 23:58:25 2021 ] 	Batch(100/3341) done. Loss: 4.0859  lr:0.100000
+[ Sun Jun 20 23:59:47 2021 ] 	Batch(200/3341) done. Loss: 4.2043  lr:0.100000
+[ Mon Jun 21 00:01:09 2021 ] 	Batch(300/3341) done. Loss: 4.1025  lr:0.100000
+[ Mon Jun 21 00:02:31 2021 ] 	Batch(400/3341) done. Loss: 4.1556  lr:0.100000
+[ Mon Jun 21 00:03:53 2021 ] 	Batch(500/3341) done. Loss: 4.0347  lr:0.100000
+[ Mon Jun 21 00:05:15 2021 ] 	Batch(600/3341) done. Loss: 4.0955  lr:0.100000
+[ Mon Jun 21 00:06:37 2021 ] 	Batch(700/3341) done. Loss: 4.1433  lr:0.100000
+[ Mon Jun 21 00:07:59 2021 ] 	Batch(800/3341) done. Loss: 4.2166  lr:0.100000
+[ Mon Jun 21 00:09:21 2021 ] 	Batch(900/3341) done. Loss: 4.1099  lr:0.100000
+[ Mon Jun 21 00:10:43 2021 ] 	Batch(1000/3341) done. Loss: 4.0913  lr:0.100000
+[ Mon Jun 21 00:12:05 2021 ] 	Batch(1100/3341) done. Loss: 4.0969  lr:0.100000
+[ Mon Jun 21 00:13:27 2021 ] 	Batch(1200/3341) done. Loss: 4.1719  lr:0.100000
+[ Mon Jun 21 00:14:49 2021 ] 	Batch(1300/3341) done. Loss: 4.1312  lr:0.100000
+[ Mon Jun 21 00:16:12 2021 ] 	Batch(1400/3341) done. Loss: 4.0881  lr:0.100000
+[ Mon Jun 21 00:17:36 2021 ] 	Batch(1500/3341) done. Loss: 4.1108  lr:0.100000
+[ Mon Jun 21 00:18:59 2021 ] 	Batch(1600/3341) done. Loss: 4.0704  lr:0.100000
+[ Mon Jun 21 00:20:22 2021 ] 	Batch(1700/3341) done. Loss: 4.2170  lr:0.100000
+[ Mon Jun 21 00:21:45 2021 ] 	Batch(1800/3341) done. Loss: 4.0507  lr:0.100000
+[ Mon Jun 21 00:23:07 2021 ] 	Batch(1900/3341) done. Loss: 4.1600  lr:0.100000
+[ Mon Jun 21 00:24:30 2021 ] 	Batch(2000/3341) done. Loss: 4.2154  lr:0.100000
+[ Mon Jun 21 00:25:52 2021 ] 	Batch(2100/3341) done. Loss: 4.0199  lr:0.100000
+[ Mon Jun 21 00:27:15 2021 ] 	Batch(2200/3341) done. Loss: 4.1337  lr:0.100000
+[ Mon Jun 21 00:28:37 2021 ] 	Batch(2300/3341) done. Loss: 4.1503  lr:0.100000
+[ Mon Jun 21 00:29:59 2021 ] 	Batch(2400/3341) done. Loss: 4.2385  lr:0.100000
+[ Mon Jun 21 00:31:21 2021 ] 	Batch(2500/3341) done. Loss: 4.1381  lr:0.100000
+[ Mon Jun 21 00:32:43 2021 ] 	Batch(2600/3341) done. Loss: 4.0170  lr:0.100000
+[ Mon Jun 21 00:34:05 2021 ] 	Batch(2700/3341) done. Loss: 4.2396  lr:0.100000
+[ Mon Jun 21 00:35:27 2021 ] 	Batch(2800/3341) done. Loss: 4.1452  lr:0.100000
+[ Mon Jun 21 00:36:49 2021 ] 	Batch(2900/3341) done. Loss: 4.0067  lr:0.100000
+[ Mon Jun 21 00:38:11 2021 ] 	Batch(3000/3341) done. Loss: 4.1213  lr:0.100000
+[ Mon Jun 21 00:39:33 2021 ] 	Batch(3100/3341) done. Loss: 4.1990  lr:0.100000
+[ Mon Jun 21 00:40:55 2021 ] 	Batch(3200/3341) done. Loss: 4.0106  lr:0.100000
+[ Mon Jun 21 00:42:17 2021 ] 	Batch(3300/3341) done. Loss: 4.0653  lr:0.100000
+[ Mon Jun 21 00:42:50 2021 ] 	Mean training loss: 4.1225.
+[ Mon Jun 21 00:42:50 2021 ] 	Time consumption: [Data]00%, [Network]100%
+[ Mon Jun 21 00:42:50 2021 ] Training epoch: 4
+[ Mon Jun 21 00:42:51 2021 ] 	Batch(0/3341) done. Loss: 4.1100  lr:0.100000
+[ Mon Jun 21 00:44:12 2021 ] 	Batch(100/3341) done. Loss: 4.0317  lr:0.100000
+[ Mon Jun 21 00:45:35 2021 ] 	Batch(200/3341) done. Loss: 4.1550  lr:0.100000
+[ Mon Jun 21 00:46:56 2021 ] 	Batch(300/3341) done. Loss: 4.1461  lr:0.100000
+[ Mon Jun 21 00:48:19 2021 ] 	Batch(400/3341) done. Loss: 4.1239  lr:0.100000
+[ Mon Jun 21 00:49:42 2021 ] 	Batch(500/3341) done. Loss: 3.9995  lr:0.100000
+[ Mon Jun 21 00:51:04 2021 ] 	Batch(600/3341) done. Loss: 4.1136  lr:0.100000
+[ Mon Jun 21 00:52:26 2021 ] 	Batch(700/3341) done. Loss: 4.0684  lr:0.100000
+[ Mon Jun 21 00:53:48 2021 ] 	Batch(800/3341) done. Loss: 4.0728  lr:0.100000
+[ Mon Jun 21 00:55:10 2021 ] 	Batch(900/3341) done. Loss: 4.1508  lr:0.100000
+[ Mon Jun 21 00:56:32 2021 ] 	Batch(1000/3341) done. Loss: 4.1945  lr:0.100000
+[ Mon Jun 21 00:57:54 2021 ] 	Batch(1100/3341) done. Loss: 4.0959  lr:0.100000
+[ Mon Jun 21 00:59:16 2021 ] 	Batch(1200/3341) done. Loss: 4.1705  lr:0.100000
+[ Mon Jun 21 01:00:38 2021 ] 	Batch(1300/3341) done. Loss: 4.1557  lr:0.100000
+[ Mon Jun 21 01:02:00 2021 ] 	Batch(1400/3341) done. Loss: 4.2109  lr:0.100000
+[ Mon Jun 21 01:03:22 2021 ] 	Batch(1500/3341) done. Loss: 4.0596  lr:0.100000
+[ Mon Jun 21 01:04:44 2021 ] 	Batch(1600/3341) done. Loss: 4.1988  lr:0.100000
+[ Mon Jun 21 01:06:06 2021 ] 	Batch(1700/3341) done. Loss: 4.0397  lr:0.100000
+[ Mon Jun 21 01:07:29 2021 ] 	Batch(1800/3341) done. Loss: 4.0682  lr:0.100000
+[ Mon Jun 21 01:08:51 2021 ] 	Batch(1900/3341) done. Loss: 4.2204  lr:0.100000
+[ Mon Jun 21 01:10:13 2021 ] 	Batch(2000/3341) done. Loss: 4.0954  lr:0.100000
+[ Mon Jun 21 01:11:36 2021 ] 	Batch(2100/3341) done. Loss: 4.2955  lr:0.100000
+[ Mon Jun 21 01:12:58 2021 ] 	Batch(2200/3341) done. Loss: 4.2160  lr:0.100000
+[ Mon Jun 21 01:14:20 2021 ] 	Batch(2300/3341) done. Loss: 4.2519  lr:0.100000
+[ Mon Jun 21 01:15:42 2021 ] 	Batch(2400/3341) done. Loss: 4.2032  lr:0.100000
+[ Mon Jun 21 01:17:04 2021 ] 	Batch(2500/3341) done. Loss: 4.0400  lr:0.100000
+[ Mon Jun 21 01:18:26 2021 ] 	Batch(2600/3341) done. Loss: 4.0985  lr:0.100000
+[ Mon Jun 21 01:19:48 2021 ] 	Batch(2700/3341) done. Loss: 4.0944  lr:0.100000
+[ Mon Jun 21 01:21:10 2021 ] 	Batch(2800/3341) done. Loss: 4.1267  lr:0.100000
+[ Mon Jun 21 01:22:34 2021 ] 	Batch(2900/3341) done. Loss: 4.1317  lr:0.100000
+[ Mon Jun 21 01:23:56 2021 ] 	Batch(3000/3341) done. Loss: 4.1279  lr:0.100000
+[ Mon Jun 21 01:25:18 2021 ] 	Batch(3100/3341) done. Loss: 4.1197  lr:0.100000
+[ Mon Jun 21 01:26:40 2021 ] 	Batch(3200/3341) done. Loss: 4.0569  lr:0.100000
+[ Mon Jun 21 01:28:03 2021 ] 	Batch(3300/3341) done. Loss: 4.1764  lr:0.100000
+[ Mon Jun 21 01:28:36 2021 ] 	Mean training loss: 4.1233.
+[ Mon Jun 21 01:28:36 2021 ] 	Time consumption: [Data]00%, [Network]100%
+[ Mon Jun 21 01:28:36 2021 ] Training epoch: 5
+[ Mon Jun 21 01:28:36 2021 ] 	Batch(0/3341) done. Loss: 4.1438  lr:0.100000
+[ Mon Jun 21 01:29:59 2021 ] 	Batch(100/3341) done. Loss: 4.1759  lr:0.100000
+[ Mon Jun 21 01:31:21 2021 ] 	Batch(200/3341) done. Loss: 4.1057  lr:0.100000
+[ Mon Jun 21 01:32:43 2021 ] 	Batch(300/3341) done. Loss: 4.0555  lr:0.100000
+[ Mon Jun 21 01:34:05 2021 ] 	Batch(400/3341) done. Loss: 4.0392  lr:0.100000
+[ Mon Jun 21 01:35:27 2021 ] 	Batch(500/3341) done. Loss: 4.1075  lr:0.100000
+[ Mon Jun 21 01:36:49 2021 ] 	Batch(600/3341) done. Loss: 4.1308  lr:0.100000
+[ Mon Jun 21 01:38:11 2021 ] 	Batch(700/3341) done. Loss: 4.1163  lr:0.100000
+[ Mon Jun 21 01:39:33 2021 ] 	Batch(800/3341) done. Loss: 4.2696  lr:0.100000
+[ Mon Jun 21 01:40:55 2021 ] 	Batch(900/3341) done. Loss: 4.0998  lr:0.100000
+[ Mon Jun 21 01:42:17 2021 ] 	Batch(1000/3341) done. Loss: 4.2942  lr:0.100000
+[ Mon Jun 21 01:43:39 2021 ] 	Batch(1100/3341) done. Loss: 4.2617  lr:0.100000
+[ Mon Jun 21 01:45:01 2021 ] 	Batch(1200/3341) done. Loss: 4.0792  lr:0.100000
+[ Mon Jun 21 01:46:23 2021 ] 	Batch(1300/3341) done. Loss: 4.2003  lr:0.100000
+[ Mon Jun 21 01:47:45 2021 ] 	Batch(1400/3341) done. Loss: 4.1634  lr:0.100000
+[ Mon Jun 21 01:49:07 2021 ] 	Batch(1500/3341) done. Loss: 4.1254  lr:0.100000
+[ Mon Jun 21 01:50:29 2021 ] 	Batch(1600/3341) done. Loss: 4.1609  lr:0.100000
+[ Mon Jun 21 01:51:51 2021 ] 	Batch(1700/3341) done. Loss: 4.1294  lr:0.100000
+[ Mon Jun 21 01:53:13 2021 ] 	Batch(1800/3341) done. Loss: 4.1058  lr:0.100000
+[ Mon Jun 21 01:54:35 2021 ] 	Batch(1900/3341) done. Loss: 4.2111  lr:0.100000
+[ Mon Jun 21 01:55:56 2021 ] 	Batch(2000/3341) done. Loss: 4.0656  lr:0.100000
+[ Mon Jun 21 01:57:19 2021 ] 	Batch(2100/3341) done. Loss: 4.1634  lr:0.100000
+[ Mon Jun 21 01:58:41 2021 ] 	Batch(2200/3341) done. Loss: 4.2162  lr:0.100000
+[ Mon Jun 21 02:00:02 2021 ] 	Batch(2300/3341) done. Loss: 4.0860  lr:0.100000
+[ Mon Jun 21 02:01:25 2021 ] 	Batch(2400/3341) done. Loss: 4.0794  lr:0.100000
+[ Mon Jun 21 02:02:47 2021 ] 	Batch(2500/3341) done. Loss: 4.0858  lr:0.100000
+[ Mon Jun 21 02:04:09 2021 ] 	Batch(2600/3341) done. Loss: 4.0038  lr:0.100000
+[ Mon Jun 21 02:05:31 2021 ] 	Batch(2700/3341) done. Loss: 4.1249  lr:0.100000
+[ Mon Jun 21 02:06:53 2021 ] 	Batch(2800/3341) done. Loss: 4.0426  lr:0.100000
+[ Mon Jun 21 02:08:15 2021 ] 	Batch(2900/3341) done. Loss: 4.1097  lr:0.100000
+[ Mon Jun 21 02:09:38 2021 ] 	Batch(3000/3341) done. Loss: 4.1448  lr:0.100000
+[ Mon Jun 21 02:10:59 2021 ] 	Batch(3100/3341) done. Loss: 4.0591  lr:0.100000
+[ Mon Jun 21 02:12:21 2021 ] 	Batch(3200/3341) done. Loss: 4.1228  lr:0.100000
+[ Mon Jun 21 02:13:44 2021 ] 	Batch(3300/3341) done. Loss: 4.0462  lr:0.100000
+[ Mon Jun 21 02:14:16 2021 ] 	Mean training loss: 4.1226.
+[ Mon Jun 21 02:14:16 2021 ] 	Time consumption: [Data]00%, [Network]100%
+[ Mon Jun 21 02:14:16 2021 ] Eval epoch: 5
